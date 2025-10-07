@@ -16,7 +16,7 @@ for email in emails:
 
 
 
-andova_tel = '^[\+]{1}[(]?[998]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$'
+andova_tel = '^[\+]{1}[(]?[998]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{6}$'
 while True:
     telifon_n = input('Telifon raqamingizni kiriting:')
     if re.match(andova_tel, telifon_n):
