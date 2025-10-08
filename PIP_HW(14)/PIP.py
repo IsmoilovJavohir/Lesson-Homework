@@ -24,8 +24,8 @@ matin = quti.find_all(class_="chm-tdih-entry-content")
 
 matn= matin[0].text
 
-jumlalar =matn.split('.')
+jumlalar =matn.split('.') #split()- matini ajratib beradi agar beligi(.) yoki bosh joy bersak shunga qarab ajratib beradi
 
 for jumla in jumlalar:
-    if jumla.strip():
+    if jumla.strip():     #strip()- matindagi bosh() joyni yoki berilgan belgini olib tashlash uchun
         print(jumla.strip()+'.')
